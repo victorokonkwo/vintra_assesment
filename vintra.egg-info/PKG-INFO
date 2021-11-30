@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vintra
+Version: 0.1.7
+Summary: Python package manager for projects running Python3.7 and above.
+Home-page: UNKNOWN
+Author: Victor
+Author-email: victordagenius@gmail.com
+License: ISC
+Description: UNKNOWN
+Keywords: package manager,dependency manager,manager,python 3,cli tool,command line tool
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

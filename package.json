@@ -1,0 +1,61 @@
+{
+    "name": "vintra",
+    "version": "0.1.7",
+    "description": "Python package manager for projects running Python3.6 and above.",
+    "main": "",
+    "scripts": {
+        "start": "python main.py",
+        "test": "echo \"No test available\"",
+        "dev": "pip install --editable .",
+        "install": "pip install vintra",
+        "build": "python setup.py sdist bdist_wheel",
+        "publish": "twine upload dist/*"
+    },
+    "author": "Vic",
+    "license": "ISC",
+    "setup": {
+        "author_email": "victordagenius@gmail.com",
+        "long_description": "file: README.md",
+        "long_description_content_type": "text/markdown",
+        "include_package_data": true,
+        "zip_safe": false,
+        "keywords": [
+            "package manager",
+            "dependency manager",
+            "manager",
+            "python 3",
+            "cli tool",
+            "command line tool"
+        ],
+        "packages": [],
+        "package_data": {
+            "vintra": [
+                "vintra/data/pkg.json",
+                "vintra/data/setup.py",
+                "vintra/data/setup.cfg",
+                "vintra/data/pyproject.toml"
+            ]
+        },
+        "data_files": [
+            "vintra/data/pkg.json",
+            "vintra/data/setup.py",
+            "vintra/data/setup.cfg",
+            "vintra/data/pyproject.toml"
+        ],
+        "entry_points": "\n[console_scripts]\nvintra=vintra.cli:cli\n    ",
+        "install_requires": [
+            "Click==7.0",
+            "stdlib-list==0.7.0"
+        ],
+        "classifiers": [
+            "Programming Language :: Python :: 3",
+            "License :: OSI Approved :: MIT License",
+            "Operating System :: OS Independent"
+        ]
+    },
+    "dependencies": {
+        "Click": "7.0",
+        "stdlib-list": "0.7.0"
+    },
+    "devDependencies": {}
+}
