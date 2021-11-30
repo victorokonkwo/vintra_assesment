@@ -2,6 +2,6 @@
 .DS_Store
 build/**
 dist/**
-pypm2.egg-info/**
+vintra.egg-info/**
 main.py
 **/__init__.pyc

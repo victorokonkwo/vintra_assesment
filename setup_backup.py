@@ -1,6 +1,6 @@
 import setuptools
 import os.path as path
-from pypm.version import __version__
+from vintra.version import __version__
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
